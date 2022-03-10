@@ -2,23 +2,23 @@
 NodejsExpressMovieLists
 
 # Database DDL ( Mysql Localhost )
-CREATE DATABASE `dbmovie`;
-Use dbmovie;
-CREATE TABLE `movies` (
-  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
-  `judul` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `rating` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `deskripsi` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `foto` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `rilis` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `durasi` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `sutradara` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `pemain` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `created_at` timestamp NULL DEFAULT NULL,
-  `updated_at` timestamp NULL DEFAULT NULL,
-  PRIMARY KEY (`id`)
+CREATE DATABASE `dbmovie`; \n
+Use dbmovie;  \n
+CREATE TABLE `movies` (  \n
+  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,  \n
+  `judul` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,  \n
+  `rating` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL, \n
+  `deskripsi` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL, \n
+  `foto` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL, \n
+  `rilis` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL, \n
+  `durasi` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL, \n
+  `sutradara` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL, \n
+  `pemain` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL, \n
+  `created_at` timestamp NULL DEFAULT NULL, \n
+  `updated_at` timestamp NULL DEFAULT NULL, \n
+  PRIMARY KEY (`id`) \n
 
-);
+); \n
 
 
 # Postman CRUD for Movies Collection
