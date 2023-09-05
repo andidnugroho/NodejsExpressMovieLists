@@ -1,1 +1,1 @@
-([The Daily Martech - Informasi, Berita, Opini & Tutorial](https://thedailymartech.com/)
+[The Daily Martech - Informasi, Berita, Opini & Tutorial](https://thedailymartech.com/)
